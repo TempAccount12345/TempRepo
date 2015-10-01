@@ -1,0 +1,2115 @@
+﻿2015-10-02 00:19:50.121 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:19:50.149 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:19:50.162 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:19:50.166 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:19:50.170 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:19:50.176 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:22:11.734 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:22:11.754 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:22:11.758 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:22:11.763 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:22:11.767 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:22:11.770 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:23:23.091 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:23:23.112 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:23:23.116 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:23:23.120 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:23:23.124 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:23:23.128 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:23:23.257 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:23:23.275 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'NServiceBus.Scheduling.Messages.ScheduledTask' message with 'NServiceBus.Scheduling.ScheduledTaskMessageHandler' handler
+2015-10-02 00:23:23.289 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'TempProcess.TestEvent' message with 'TempProcess.TestSaga' handler
+2015-10-02 00:23:23.302 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 03/10/2015.
+2015-10-02 00:23:23.357 INFO  NServiceBus.Features.UnicastBus Number of messages found: 2
+2015-10-02 00:23:23.362 DEBUG NServiceBus.Features.UnicastBus Message definitions: 
+ MessageType: NServiceBus.Scheduling.Messages.ScheduledTask, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Scheduling.Messages.ScheduledTask
+MessageType: TempProcess.TestEvent, Recoverable: True, TimeToBeReceived: Not set , Parent types: TempProcess.TestEvent
+
+2015-10-02 00:23:23.371 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:23:23.408 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You@KYLEPC.
+2015-10-02 00:23:23.422 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:23:23.554 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You@KYLEPC] existed
+2015-10-02 00:23:23.558 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: TestEndpoint.Error@KYLEPC.
+2015-10-02 00:23:23.565 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:23:23.657 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [TestEndpoint.Error@KYLEPC] existed
+2015-10-02 00:23:23.668 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You.Timeouts@KYLEPC.
+2015-10-02 00:23:23.672 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:23:23.763 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:23:23.768 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:23:23.864 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You.Retries@KYLEPC.
+2015-10-02 00:23:23.869 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:23:23.992 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'KYLEPC\Kyle' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "KYLEPC\Kyle" /add
+2015-10-02 00:23:24.002 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: AzureStorageQueueTransportConfiguration
+Version: 6.2.1
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: CriticalErrorHandling
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [Sagas]
+Startup Tasks: None
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [MessageDrivenSubscriptions]
+Startup Tasks: None
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager]
+Startup Tasks: None
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: TimeoutManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SecondLevelRetries
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+
+2015-10-02 00:23:24.044 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:23:24.078 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:23:24.079 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:23:24.106 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Timeouts@KYLEPC.
+2015-10-02 00:23:24.110 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:23:24.115 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:23:24.120 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:23:24.080 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:23:24.128 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:23:24.140 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling for timeouts at 02/10/2015 00:23:24.
+2015-10-02 00:23:24.136 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:23:24.135 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Retries@KYLEPC.
+2015-10-02 00:23:24.149 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling next retrieval is at 02/10/2015 00:24:24.
+2015-10-02 00:23:24.156 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:23:24.167 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:23:24.175 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.StorageInitializer, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:23:24.186 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Features.FeatureActivator+Runner, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:23:24.274 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'TempProcess.TestEvent' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:23:34.280 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'TempProcess.TestEvent' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:24:05.547 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:24:05.569 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:24:05.573 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:24:05.580 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:24:05.584 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:24:05.588 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:24:05.706 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:24:05.721 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'NServiceBus.Scheduling.Messages.ScheduledTask' message with 'NServiceBus.Scheduling.ScheduledTaskMessageHandler' handler
+2015-10-02 00:24:05.730 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'TempProcess.TestEvent' message with 'TempProcess.TestSaga' handler
+2015-10-02 00:24:05.740 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 03/10/2015.
+2015-10-02 00:24:05.798 INFO  NServiceBus.Features.UnicastBus Number of messages found: 3
+2015-10-02 00:24:05.803 DEBUG NServiceBus.Features.UnicastBus Message definitions: 
+ MessageType: NServiceBus.Azure.Transports.WindowsAzureStorageQueues.MessageWrapper, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Azure.Transports.WindowsAzureStorageQueues.MessageWrapper
+MessageType: NServiceBus.Scheduling.Messages.ScheduledTask, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Scheduling.Messages.ScheduledTask
+MessageType: TempProcess.TestEvent, Recoverable: True, TimeToBeReceived: Not set , Parent types: TempProcess.TestEvent
+
+2015-10-02 00:24:05.896 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You@UseDevelopmentStorage=true] existed
+2015-10-02 00:24:05.912 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [TestEndpoint.Error@UseDevelopmentStorage=true] existed
+2015-10-02 00:24:05.961 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'KYLEPC\Kyle' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "KYLEPC\Kyle" /add
+2015-10-02 00:24:05.969 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: AzureStorageQueueTransportConfiguration
+Version: 6.2.1
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalErrorHandling
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [Sagas]
+Startup Tasks: None
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [MessageDrivenSubscriptions]
+Startup Tasks: None
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager]
+Startup Tasks: None
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SecondLevelRetries
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+
+2015-10-02 00:24:06.008 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:06.061 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:06.062 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:06.071 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Timeouts@UseDevelopmentStorage=true.
+2015-10-02 00:24:06.066 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:06.422 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:06.417 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.TimeoutsDispatcher@UseDevelopmentStorage=true.
+2015-10-02 00:24:06.428 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Retries@UseDevelopmentStorage=true.
+2015-10-02 00:24:06.443 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:06.452 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:06.462 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:06.593 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:06.616 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:06.606 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling for timeouts at 02/10/2015 00:24:06.
+2015-10-02 00:24:06.651 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.StorageInitializer, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:24:06.655 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Features.FeatureActivator+Runner, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:24:06.656 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling next retrieval is at 02/10/2015 00:25:06.
+2015-10-02 00:24:06.807 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'TempProcess.TestEvent' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:24:24.698 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:24:24.721 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:24:24.726 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:24:24.730 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:24:24.735 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:24:24.739 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:24:24.849 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:24:24.864 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'NServiceBus.Scheduling.Messages.ScheduledTask' message with 'NServiceBus.Scheduling.ScheduledTaskMessageHandler' handler
+2015-10-02 00:24:24.874 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'TempProcess.TestEvent' message with 'TempProcess.TestSaga' handler
+2015-10-02 00:24:24.884 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 03/10/2015.
+2015-10-02 00:24:24.937 INFO  NServiceBus.Features.UnicastBus Number of messages found: 2
+2015-10-02 00:24:24.942 DEBUG NServiceBus.Features.UnicastBus Message definitions: 
+ MessageType: NServiceBus.Scheduling.Messages.ScheduledTask, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Scheduling.Messages.ScheduledTask
+MessageType: TempProcess.TestEvent, Recoverable: True, TimeToBeReceived: Not set , Parent types: TempProcess.TestEvent
+
+2015-10-02 00:24:24.987 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:25.038 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:25.060 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You.KYLEPC@KYLEPC] existed
+2015-10-02 00:24:25.066 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:25.074 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:25.080 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You@KYLEPC] existed
+2015-10-02 00:24:25.085 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:25.092 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:25.097 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [TestEndpoint.Error@KYLEPC] existed
+2015-10-02 00:24:25.115 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:25.123 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:25.129 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:25.136 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:25.142 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:25.150 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:25.163 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'KYLEPC\Kyle' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "KYLEPC\Kyle" /add
+2015-10-02 00:24:25.171 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: AzureStorageQueueTransportConfiguration
+Version: 6.2.1
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: CriticalErrorHandling
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [Sagas]
+Startup Tasks: None
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager]
+Startup Tasks: None
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SecondLevelRetries
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-02 00:24:25.209 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:25.215 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:24:25.225 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'Testing.You.KYLEPC' initiated with concurrency '1'
+2015-10-02 00:24:26.811 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:26.816 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:26.816 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:26.816 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:26.832 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Timeouts@KYLEPC.
+2015-10-02 00:24:26.843 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:24:26.848 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:26.853 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:26.858 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:24:26.837 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Retries@KYLEPC.
+2015-10-02 00:24:26.830 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:26.870 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:26.864 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:24:26.878 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:24:26.938 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:24:26.984 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:26.999 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling for timeouts at 02/10/2015 00:24:26.
+2015-10-02 00:24:26.997 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:24:27.025 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling next retrieval is at 02/10/2015 00:25:27.
+2015-10-02 00:24:27.051 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'TempProcess.TestEvent, TempProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:24:27.065 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.StorageInitializer, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:24:27.069 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:27.087 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:27.105 ERROR NServiceBus.Unicast.Transport.TransportReceiver Failed to deserialize message with ID: 90d50dce-5fb3-4be9-abb3-a524016d1b00
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from transport message 90d50dce-5fb3-4be9-abb3-a524016d1b00 ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: q. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorTypeChecker.cs:line 0
+   at Newtonsoft.Json.JsonTextReader.ReadInternal() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorTypeChecker.cs:line 0
+   at Newtonsoft.Json.JsonTextReader.Read() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorTypeChecker.cs:line 0
+   at NServiceBus.Serializers.Json.JsonMessageSerializerBase.Deserialize(Stream stream, IList`1 messageTypes) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Serializers\Json\JsonMessageSerializerBase.cs:line 111
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Extract(TransportMessage physicalMessage) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 92
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 40
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 44
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 20
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SubscriptionReceiverBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 31
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.UnitOfWorkBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 32
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.Transports.RabbitMQ.OpenPublishChannelBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\ef98ad7376e3379a\src\NServiceBus.RabbitMQ\OpenPublishChannelBehavior.cs:line 19
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ChildContainerBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\ChildContainerBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Monitoring\ProcessingStatisticsBehavior.cs:line 23
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.Invoke() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 52
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 129
+   at NServiceBus.Pipeline.PipelineExecutor.InvokePipeline[TContext](IEnumerable`1 behaviors, TContext context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 85
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeReceivePhysicalMessagePipeline() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 102
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 826
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 411
+   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 328
+2015-10-02 00:24:27.108 DEBUG NServiceBus.Features.AutoSubscribe+ApplySubscriptions Auto subscribed to event TempProcess.TestEvent
+2015-10-02 00:24:27.153 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:24:27.154 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Features.FeatureActivator+Runner, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:24:27.164 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:24:27.210 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'TempProcess.TestEvent, TempProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:24:27.216 ERROR NServiceBus.Unicast.Transport.TransportReceiver Failed to deserialize message with ID: 12882c74-a12c-4374-9982-a524016ed25f
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from transport message 12882c74-a12c-4374-9982-a524016ed25f ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: q. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorTypeChecker.cs:line 0
+   at Newtonsoft.Json.JsonTextReader.ReadInternal() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorTypeChecker.cs:line 0
+   at Newtonsoft.Json.JsonTextReader.Read() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorTypeChecker.cs:line 0
+   at NServiceBus.Serializers.Json.JsonMessageSerializerBase.Deserialize(Stream stream, IList`1 messageTypes) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Serializers\Json\JsonMessageSerializerBase.cs:line 111
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Extract(TransportMessage physicalMessage) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 92
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 40
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 44
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 20
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SubscriptionReceiverBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 31
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.UnitOfWorkBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 32
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.Transports.RabbitMQ.OpenPublishChannelBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\ef98ad7376e3379a\src\NServiceBus.RabbitMQ\OpenPublishChannelBehavior.cs:line 19
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ChildContainerBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\ChildContainerBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Monitoring\ProcessingStatisticsBehavior.cs:line 23
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.Invoke() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 52
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 129
+   at NServiceBus.Pipeline.PipelineExecutor.InvokePipeline[TContext](IEnumerable`1 behaviors, TContext context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 85
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeReceivePhysicalMessagePipeline() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 102
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 826
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 411
+   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 328
+2015-10-02 00:25:11.811 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Disconnected from RabbitMQ Broker, reason: AMQP close-reason, initiated by Library, code=541, text="Unexpected Exception", classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.Frame.ReadFrom(NetworkBinaryReader reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop() , going to reconnect
+2015-10-02 00:25:11.813 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Disconnected from RabbitMQ Broker, reason: AMQP close-reason, initiated by Library, code=541, text="Unexpected Exception", classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.Frame.ReadFrom(NetworkBinaryReader reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop() , going to reconnect
+2015-10-02 00:25:11.821 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:11.823 INFO  NServiceBus.Unicast.Transport.TransportReceiver Failed to process message
+System.NotImplementedException: The method or operation is not implemented.
+   at TempProcess.TestSaga.Handle(TestEvent message) in C:\Root\MomentUs\ConsoleApplication1\TestSaga.cs:line 26
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.MessageHandlerRegistry.Invoke(Object handler, Object message, Dictionary`2 dictionary) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\MessageHandlerRegistry.cs:line 126
+   at NServiceBus.Unicast.MessageHandlerRegistry.InvokeHandle(Object handler, Object message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\MessageHandlerRegistry.cs:line 84
+   at NServiceBus.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 40
+   at NServiceBus.InvokeHandlersBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 24
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Sagas\SagaPersistenceBehavior.cs:line 90
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SetCurrentMessageBeingHandledBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\SetCurrentMessageBeingHandledBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.LoadHandlersBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ApplyIncomingMessageMutatorsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\MessageMutator\ApplyIncomingMessageMutatorsBehavior.cs:line 23
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ExecuteLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 24
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.CallbackInvocationBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\CallbackInvocationBehavior.cs:line 22
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 47
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 20
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SubscriptionReceiverBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 31
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.UnitOfWorkBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 42
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.Transports.RabbitMQ.OpenPublishChannelBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\ef98ad7376e3379a\src\NServiceBus.RabbitMQ\OpenPublishChannelBehavior.cs:line 19
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ChildContainerBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\ChildContainerBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Monitoring\ProcessingStatisticsBehavior.cs:line 23
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.Invoke() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 52
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 129
+   at NServiceBus.Pipeline.PipelineExecutor.InvokePipeline[TContext](IEnumerable`1 behaviors, TContext context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 85
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeReceivePhysicalMessagePipeline() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 102
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 826
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 411
+   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 344
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 228
+   at NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.ConsumeMessages(Object state) in c:\BuildAgent\work\ef98ad7376e3379a\src\NServiceBus.RabbitMQ\RabbitMqDequeueStrategy.cs:line 193
+2015-10-02 00:25:25.882 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:25:25.905 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:25:25.913 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:25:25.921 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:25:25.936 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:25:25.959 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:25:26.089 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:25:26.106 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'NServiceBus.Scheduling.Messages.ScheduledTask' message with 'NServiceBus.Scheduling.ScheduledTaskMessageHandler' handler
+2015-10-02 00:25:26.117 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'TempProcess.TestEvent' message with 'TempProcess.TestSaga' handler
+2015-10-02 00:25:26.128 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 03/10/2015.
+2015-10-02 00:25:26.186 INFO  NServiceBus.Features.UnicastBus Number of messages found: 2
+2015-10-02 00:25:26.192 DEBUG NServiceBus.Features.UnicastBus Message definitions: 
+ MessageType: NServiceBus.Scheduling.Messages.ScheduledTask, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Scheduling.Messages.ScheduledTask
+MessageType: TempProcess.TestEvent, Recoverable: True, TimeToBeReceived: Not set , Parent types: TempProcess.TestEvent
+
+2015-10-02 00:25:26.569 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.620 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.639 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You.KYLEPC@KYLEPC] existed
+2015-10-02 00:25:26.658 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.675 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.683 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You@KYLEPC] existed
+2015-10-02 00:25:26.690 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.709 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.716 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [TestEndpoint.Error@KYLEPC] existed
+2015-10-02 00:25:26.740 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.746 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.753 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.764 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.774 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.791 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.807 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'KYLEPC\Kyle' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "KYLEPC\Kyle" /add
+2015-10-02 00:25:26.819 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: AzureStorageQueueTransportConfiguration
+Version: 6.2.1
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: CriticalErrorHandling
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [Sagas]
+Startup Tasks: None
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager]
+Startup Tasks: None
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SecondLevelRetries
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-02 00:25:26.859 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:25:26.865 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:25:26.877 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'Testing.You.KYLEPC' initiated with concurrency '1'
+2015-10-02 00:25:26.881 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:26.886 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:25:26.886 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:25:26.898 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:25:26.903 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Timeouts@KYLEPC.
+2015-10-02 00:25:26.908 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:25:26.913 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:25:26.917 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:25:26.922 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:25:26.887 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:25:26.896 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:26.954 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:25:26.957 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:25:26.980 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Retries@KYLEPC.
+2015-10-02 00:25:26.959 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling for timeouts at 02/10/2015 00:25:26.
+2015-10-02 00:25:27.005 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:25:27.022 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-02 00:25:27.014 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling next retrieval is at 02/10/2015 00:26:27.
+2015-10-02 00:25:27.028 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:25:27.100 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:27.103 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.StorageInitializer, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:25:27.120 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:27.135 DEBUG NServiceBus.Features.AutoSubscribe+ApplySubscriptions Auto subscribed to event TempProcess.TestEvent
+2015-10-02 00:25:27.145 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Features.FeatureActivator+Runner, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:25:27.187 DEBUG NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Trying to connect
+2015-10-02 00:25:27.196 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-02 00:25:31.438 INFO  NServiceBus.Unicast.Transport.TransportReceiver Failed to process message
+System.NotImplementedException: The method or operation is not implemented.
+   at TempProcess.TestSaga.Handle(TestEvent message) in C:\Root\MomentUs\ConsoleApplication1\TestSaga.cs:line 26
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.MessageHandlerRegistry.Invoke(Object handler, Object message, Dictionary`2 dictionary) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\MessageHandlerRegistry.cs:line 126
+   at NServiceBus.Unicast.MessageHandlerRegistry.InvokeHandle(Object handler, Object message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\MessageHandlerRegistry.cs:line 84
+   at NServiceBus.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 40
+   at NServiceBus.InvokeHandlersBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 24
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Sagas\SagaPersistenceBehavior.cs:line 90
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SetCurrentMessageBeingHandledBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\SetCurrentMessageBeingHandledBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.LoadHandlersBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ApplyIncomingMessageMutatorsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\MessageMutator\ApplyIncomingMessageMutatorsBehavior.cs:line 23
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ExecuteLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 24
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.CallbackInvocationBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\CallbackInvocationBehavior.cs:line 22
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.DeserializeLogicalMessagesBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Messages\DeserializeLogicalMessagesBehavior.cs:line 47
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 20
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.SubscriptionReceiverBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:line 31
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.UnitOfWorkBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 42
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.Transports.RabbitMQ.OpenPublishChannelBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\ef98ad7376e3379a\src\NServiceBus.RabbitMQ\OpenPublishChannelBehavior.cs:line 19
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ChildContainerBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Behaviors\ChildContainerBehavior.cs:line 17
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.<>c__DisplayClass5.<InvokeNext>b__2() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 94
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IncomingContext context, Action next) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Monitoring\ProcessingStatisticsBehavior.cs:line 23
+   at NServiceBus.BehaviorChain`1.InvokeNext(T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 107
+   at NServiceBus.BehaviorChain`1.Invoke() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 52
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 129
+   at NServiceBus.Pipeline.PipelineExecutor.InvokePipeline[TContext](IEnumerable`1 behaviors, TContext context) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 85
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeReceivePhysicalMessagePipeline() in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 102
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 826
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 411
+   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 344
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in c:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 228
+   at NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy.ConsumeMessages(Object state) in c:\BuildAgent\work\ef98ad7376e3379a\src\NServiceBus.RabbitMQ\RabbitMqDequeueStrategy.cs:line 193
+2015-10-02 00:26:30.470 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:26:30.496 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:26:30.503 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:26:30.508 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:26:30.513 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:26:30.519 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:26:30.686 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:26:30.711 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'NServiceBus.Scheduling.Messages.ScheduledTask' message with 'NServiceBus.Scheduling.ScheduledTaskMessageHandler' handler
+2015-10-02 00:26:30.724 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'ConsoleApplication1.TestEvent' message with 'ConsoleApplication1.TestSaga' handler
+2015-10-02 00:26:30.735 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 03/10/2015.
+2015-10-02 00:26:30.791 INFO  NServiceBus.Features.UnicastBus Number of messages found: 2
+2015-10-02 00:26:30.797 DEBUG NServiceBus.Features.UnicastBus Message definitions: 
+ MessageType: NServiceBus.Scheduling.Messages.ScheduledTask, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Scheduling.Messages.ScheduledTask
+MessageType: ConsoleApplication1.TestEvent, Recoverable: True, TimeToBeReceived: Not set , Parent types: ConsoleApplication1.TestEvent
+
+2015-10-02 00:26:30.807 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:26:30.837 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You@KYLEPC.
+2015-10-02 00:26:30.852 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:26:30.951 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.You@KYLEPC] existed
+2015-10-02 00:26:30.955 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: TestEndpoint.Error@KYLEPC.
+2015-10-02 00:26:30.962 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:26:31.069 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [TestEndpoint.Error@KYLEPC] existed
+2015-10-02 00:26:31.080 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You.Timeouts@KYLEPC.
+2015-10-02 00:26:31.085 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:26:31.185 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:26:31.191 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:26:31.299 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.You.Retries@KYLEPC.
+2015-10-02 00:26:31.304 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:26:31.400 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'KYLEPC\Kyle' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "KYLEPC\Kyle" /add
+2015-10-02 00:26:31.410 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: AzureStorageQueueTransportConfiguration
+Version: 6.2.1
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: CriticalErrorHandling
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [Sagas]
+Startup Tasks: None
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [MessageDrivenSubscriptions]
+Startup Tasks: None
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager]
+Startup Tasks: None
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: TimeoutManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SecondLevelRetries
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+
+2015-10-02 00:26:31.451 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:31.582 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:31.582 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:31.588 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:31.611 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Timeouts@KYLEPC.
+2015-10-02 00:26:31.615 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:26:31.628 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:31.633 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:31.622 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.You.Retries@KYLEPC.
+2015-10-02 00:26:31.695 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling for timeouts at 02/10/2015 00:26:31.
+2015-10-02 00:26:31.662 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:31.679 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:31.701 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:31.711 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling next retrieval is at 02/10/2015 00:27:31.
+2015-10-02 00:26:31.755 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:31.788 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.StorageInitializer, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:26:31.796 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Features.FeatureActivator+Runner, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:26:31.893 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'ConsoleApplication1.TestEvent' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:26:45.368 INFO  DefaultFactory Logging to 'C:\Root\MomentUs\ConsoleApplication1\bin\Debug\' with level Debug
+2015-10-02 00:26:45.404 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-02 00:26:45.409 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-02 00:26:45.418 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-02 00:26:45.427 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-02 00:26:45.432 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-02 00:26:45.549 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:26:45.567 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'NServiceBus.Scheduling.Messages.ScheduledTask' message with 'NServiceBus.Scheduling.ScheduledTaskMessageHandler' handler
+2015-10-02 00:26:45.577 DEBUG NServiceBus.Unicast.MessageHandlerRegistry Associated 'ConsoleApplication1.TestEvent' message with 'ConsoleApplication1.TestSaga' handler
+2015-10-02 00:26:45.588 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 03/10/2015.
+2015-10-02 00:26:45.642 INFO  NServiceBus.Features.UnicastBus Number of messages found: 2
+2015-10-02 00:26:45.647 DEBUG NServiceBus.Features.UnicastBus Message definitions: 
+ MessageType: NServiceBus.Scheduling.Messages.ScheduledTask, Recoverable: True, TimeToBeReceived: Not set , Parent types: NServiceBus.Scheduling.Messages.ScheduledTask
+MessageType: ConsoleApplication1.TestEvent, Recoverable: True, TimeToBeReceived: Not set , Parent types: ConsoleApplication1.TestEvent
+
+2015-10-02 00:26:45.657 DEBUG NServiceBus.Faults.ErrorQueueSettings Error queue retrieved from <MessageForwardingInCaseOfFaultConfig> element in config file.
+2015-10-02 00:26:45.685 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.Yous@KYLEPC.
+2015-10-02 00:26:45.699 WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator Queue KYLEPC\private$\Testing.Yous does not exist.
+2015-10-02 00:26:45.703 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Going to create queue: KYLEPC\private$\Testing.Yous
+2015-10-02 00:26:45.861 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Created queue, path: [KYLEPC\private$\Testing.Yous], account: [KYLEPC\Kyle], transactional: [True]
+2015-10-02 00:26:45.866 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [Testing.Yous@KYLEPC] existed
+2015-10-02 00:26:45.871 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: TestEndpoint.Error@KYLEPC.
+2015-10-02 00:26:45.877 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Queue exists, going to set permissions.
+2015-10-02 00:26:45.975 DEBUG NServiceBus.Unicast.Queuing.QueuesCreator Verified that the queue: [TestEndpoint.Error@KYLEPC] existed
+2015-10-02 00:26:45.986 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.Yous.Timeouts@KYLEPC.
+2015-10-02 00:26:45.991 WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator Queue KYLEPC\private$\Testing.Yous.Timeouts does not exist.
+2015-10-02 00:26:45.995 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Going to create queue: KYLEPC\private$\Testing.Yous.Timeouts
+2015-10-02 00:26:46.148 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Created queue, path: [KYLEPC\private$\Testing.Yous.Timeouts], account: [KYLEPC\Kyle], transactional: [True]
+2015-10-02 00:26:46.153 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.Yous.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:26:46.157 WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator Queue KYLEPC\private$\Testing.Yous.TimeoutsDispatcher does not exist.
+2015-10-02 00:26:46.162 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Going to create queue: KYLEPC\private$\Testing.Yous.TimeoutsDispatcher
+2015-10-02 00:26:46.307 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Created queue, path: [KYLEPC\private$\Testing.Yous.TimeoutsDispatcher], account: [KYLEPC\Kyle], transactional: [True]
+2015-10-02 00:26:46.312 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Checking if queue exists: Testing.Yous.Retries@KYLEPC.
+2015-10-02 00:26:46.317 WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator Queue KYLEPC\private$\Testing.Yous.Retries does not exist.
+2015-10-02 00:26:46.322 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Going to create queue: KYLEPC\private$\Testing.Yous.Retries
+2015-10-02 00:26:46.471 DEBUG NServiceBus.Transports.Msmq.MsmqQueueCreator Created queue, path: [KYLEPC\private$\Testing.Yous.Retries], account: [KYLEPC\Kyle], transactional: [True]
+2015-10-02 00:26:46.476 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'KYLEPC\Kyle' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "KYLEPC\Kyle" /add
+2015-10-02 00:26:46.484 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: AzureStorageQueueTransportConfiguration
+Version: 6.2.1
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: CriticalErrorHandling
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [Sagas]
+Startup Tasks: None
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [MessageDrivenSubscriptions]
+Startup Tasks: None
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager]
+Startup Tasks: None
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: TimeoutManager
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SecondLevelRetries
+Version: 5.2.6
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.6
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.6
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+
+2015-10-02 00:26:46.525 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:47.525 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:47.525 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:47.531 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.Yous.TimeoutsDispatcher@KYLEPC.
+2015-10-02 00:26:47.536 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.Yous.Timeouts@KYLEPC.
+2015-10-02 00:26:47.542 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:47.547 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:47.525 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:47.590 DEBUG NServiceBus.Satellites.SatelliteLauncher Starting satellite NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c for Testing.Yous.Retries@KYLEPC.
+2015-10-02 00:26:47.569 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:47.559 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:47.596 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem see http://docs.particular.net/search?q=PerformanceCounters.
+2015-10-02 00:26:47.570 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling for timeouts at 02/10/2015 00:26:47.
+2015-10-02 00:26:47.629 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-02 00:26:47.638 DEBUG NServiceBus.Timeout.Hosting.Windows.TimeoutPersisterReceiver Polling next retrieval is at 02/10/2015 00:27:47.
+2015-10-02 00:26:47.695 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.StorageInitializer, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:26:47.699 DEBUG NServiceBus.Unicast.UnicastBus Started NServiceBus.Features.FeatureActivator+Runner, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c.
+2015-10-02 00:26:47.836 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'ConsoleApplication1.TestEvent' could not be determined by a 'Type.GetType', scanning known messages for a match
+2015-10-02 00:26:57.845 DEBUG NServiceBus.Unicast.Messages.MessageMetadataRegistry Message type: 'ConsoleApplication1.TestEvent' could not be determined by a 'Type.GetType', scanning known messages for a match
